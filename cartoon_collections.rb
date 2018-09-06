@@ -3,8 +3,9 @@ def roll_call_dwarves(dwarves)# code an argument here
   dwarves.each.with_index(1) { |dwarf, i| puts "#{i}. #{dwarf}" }
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(veggies)# code an argument here
   # Your code here
+  veggies.each { |veggie| puts "#{veggie}.capitalize!"}
 end
 
 def long_planeteer_calls# code an argument here
