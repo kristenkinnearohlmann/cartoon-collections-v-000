@@ -31,4 +31,5 @@ def find_the_cheese(collection)# code an argument here
   cheese_types.each do |cheese|
     cheese_found = collection.include?(cheese)
   end
+  cheese
 end
