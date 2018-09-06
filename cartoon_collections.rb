@@ -29,7 +29,8 @@ def find_the_cheese(collection)# code an argument here
   cheese_found = ""
 
   cheese_types.each do |cheese|
-    cheese_found = collection.include?(cheese)
+    if collection.include?(cheese)
+      cheese_found = cheese
   end
   cheese_found
 end
