@@ -27,6 +27,7 @@ def find_the_cheese(collection)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
+  binding.pry
   if collection.include?(cheese_types)
     collection.include?(cheese_types).index_of
   else
