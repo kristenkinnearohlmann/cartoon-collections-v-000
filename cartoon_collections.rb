@@ -29,15 +29,9 @@ def find_the_cheese(collection)# code an argument here
   cheese_found = nil
 
   cheese_types.each do |cheese|
-  #   if collection.include?(cheese)
-  #     cheese_found = cheese
-  #   end
-  # end
-  # cheese_found
-  if collection.include?(cheese)
-    return cheese
-  else
-    nil
+    if collection.include?(cheese)
+      cheese_found = cheese
+    end
   end
-end
+  cheese_found
 end
