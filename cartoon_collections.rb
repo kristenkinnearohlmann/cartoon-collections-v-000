@@ -35,4 +35,5 @@ def find_the_cheese(collection)# code an argument here
       cheese_found = nil
     end
   end
+  cheese_found
 end
