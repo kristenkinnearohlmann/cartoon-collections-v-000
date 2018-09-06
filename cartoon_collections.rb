@@ -28,7 +28,7 @@ def find_the_cheese(collection)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   if collection.include?(cheese_types)
-    collection.include?(cheese_types)
+    collection[cheese_types]
   else
     nil
   end
